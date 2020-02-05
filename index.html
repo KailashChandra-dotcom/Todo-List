@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            ToDo List
+        </title>
+        <script src="Todo.js"></script>
+        <style>
+
+            h1, p{
+                text-align: center;
+                font-weight: bolder;
+                font-size: xx-large;
+                font-family: Sans-serif;
+            }
+
+            table{
+                align-items: center;
+                font-size: xx-large;
+            }
+            
+            .Row{
+                background-color: coral;
+                color: black;
+                font-size: large;    
+            }
+
+            input{
+                text-align: center;
+                font-size: x-large;
+                font-family: 'Courier New';
+                border: 3px solid black;
+                color: black;
+            }
+
+            *{
+                background-color:floralwhite;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1><b> To-Do App</b></h1>
+        <p>Add:<p>
+        <input type="text" id="Text_input" name="txt">
+        <input type="submit" id="button" name="button" value="Add" onclick="addElement()">
+        <table id="show" align="center">
+
+        </table>
+    </body>
+</html>
